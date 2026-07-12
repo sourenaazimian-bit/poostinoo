@@ -1,1 +1,128 @@
+/* ===== Poostinoo v1 ===== */
 
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Tahoma,sans-serif;
+    background:#f6fbf9;
+    color:#222;
+    line-height:1.8;
+}
+
+header{
+    position:sticky;
+    top:0;
+    z-index:1000;
+    background:rgba(255,255,255,.95);
+    backdrop-filter:blur(12px);
+    box-shadow:0 5px 20px rgba(0,0,0,.08);
+}
+
+.logo{
+    color:#2f8f6b;
+    font-size:32px;
+    font-weight:bold;
+    transition:.3s;
+}
+
+.logo:hover{
+    transform:scale(1.05);
+}
+
+nav{
+    font-size:16px;
+    font-weight:600;
+}
+
+nav a{
+    color:#444;
+    text-decoration:none;
+    margin:0 10px;
+    transition:.3s;
+}
+
+nav a:hover{
+    color:#2f8f6b;
+}
+
+.hero{
+    min-height:85vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    background:linear-gradient(135deg,#ffffff,#dff7ee);
+    padding:40px 20px;
+}
+
+.hero h1{
+    font-size:56px;
+    margin-bottom:20px;
+    color:#1f3c34;
+}
+
+.hero p{
+    font-size:22px;
+    color:#666;
+    margin-bottom:35px;
+}
+
+.btn-main{
+    display:inline-block;
+    background:#2f8f6b;
+    color:#fff;
+    padding:15px 40px;
+    border-radius:50px;
+    text-decoration:none;
+    transition:.3s;
+    font-weight:bold;
+}
+
+.btn-main:hover{
+    background:#267557;
+    transform:translateY(-3px);
+}
+
+.section{
+    padding:80px 20px;
+}
+
+.section h2{
+    text-align:center;
+    margin-bottom:50px;
+    color:#2f8f6b;
+}
+
+.card{
+    border:none;
+    border-radius:22px;
+    overflow:hidden;
+    box-shadow:0 8px 25px rgba(0,0,0,.08);
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 15px 35px rgba(0,0,0,.12);
+}
+
+.card img{
+    width:100%;
+    display:block;
+}
+
+.card h5{
+    margin-top:15px;
+    font-weight:bold;
+}
+
+footer{
+    background:#1e1e1e;
+    color:white;
+    text-align:center;
+    padding:50px 20px;
+}
