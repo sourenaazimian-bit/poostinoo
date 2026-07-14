@@ -1,1 +1,39 @@
+[
+  {
+    "id": 1,
+    "name": "سرم ویتامین C",
+    "brand": "The Ordinary",
+    "price": 1350000,
+    "category": "مراقبت پوست",
+    "image": "images/products/product1.jpg",
+    "stock": 20
+  },
+  {
+    "id": 2,
+    "name": "ضدآفتاب SPF50",
+    "brand": "Isdin",
+    "price": 990000,
+    "category": "ضدآفتاب",
+    "image": "images/products/product2.jpg",
+    "stock": 15
+  },
+  {
+    "id": 3,
+    "name": "ژل شستشوی صورت",
+    "brand": "COSRX",
+    "price": 640000,
+    "category": "شوینده",
+    "image": "images/products/product3.jpg",
+    "stock": 30
+  },
+  {
+    "id": 4,
+    "name": "کرم آبرسان",
+    "brand": "Clinique",
+    "price": 850000,
+    "category": "آبرسان",
+    "image": "images/products/product4.jpg",
+    "stock": 12
+  }
+]
 
