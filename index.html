@@ -2,146 +2,38 @@
 <html lang="fa" dir="rtl">
 
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<meta charset="UTF-8">
+    <title>پوستی نو | فروشگاه تخصصی محصولات مراقبت از پوست</title>
 
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="فروشگاه اینترنتی پوستی نو، مرجع خرید محصولات اصل مراقبت از پوست، مو و زیبایی">
 
-<title>پوستی نو | فروشگاه تخصصی مراقبت از پوست</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
 
-<link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-<link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="style.css">
 
 </head>
 
 <body>
-<!-- ================= Categories ================= -->
 
-<section class="categories">
-
-<h2 class="section-title">
-دسته‌بندی محصولات
-</h2>
-
-<div class="category-grid">
-
-<div class="category-card">
-<div class="icon">🧴</div>
-<h3>مراقبت پوست</h3>
-<p>کرم، سرم، تونر و شوینده</p>
-</div>
-
-<div class="category-card">
-<div class="icon">☀️</div>
-<h3>ضد آفتاب</h3>
-<p>انواع SPF ایرانی و خارجی</p>
-</div>
-
-<div class="category-card">
-<div class="icon">💄</div>
-<h3>آرایشی</h3>
-<p>محصولات اصل و اورجینال</p>
-</div>
-
-<div class="category-card">
-<div class="icon">🧖</div>
-<h3>مراقبت مو</h3>
-<p>شامپو، ماسک و سرم مو</p>
-</div>
-
-</div>
-
-</section>
-
-<!-- ================= Featured Products ================= -->
-
-<section class="featured">
-
-<h2 class="section-title">
-
-پرفروش‌ترین محصولات
-
-</h2>
-
-<div class="product-grid">
-
-<div class="product-card">
-
-<div class="badge">
-جدید
-</div>
-
-<img src="images/products/product1.jpg">
-
-<h3>سرم ویتامین C</h3>
-
-<p class="price">
-۱٬۳۵۰٬۰۰۰ تومان
-</p>
-
-<button>
-افزودن به سبد خرید
-</button>
-
-</div>
-
-<div class="product-card">
-
-<div class="badge">
-پرفروش
-</div>
-
-<img src="images/products/product2.jpg">
-
-<h3>ضدآفتاب SPF50</h3>
-
-<p class="price">
-۹۹۰٬۰۰۰ تومان
-</p>
-
-<button>
-افزودن به سبد خرید
-</button>
-
-</div>
-
-<div class="product-card">
-
-<div class="badge">
-ویژه
-</div>
-
-<img src="images/products/product3.jpg">
-
-<h3>ژل شستشوی صورت</h3>
-
-<p class="price">
-۶۴۰٬۰۰۰ تومان
-</p>
-
-<button>
-افزودن به سبد خرید
-</button>
-
-</div>
-
-</div>
-
-</section>
 <header>
 
-<div class="topbar">
+<div class="container">
 
-<div class="logo">
+<a href="#" class="logo">
 
 <img src="images/logo.png" alt="پوستی نو">
 
-</div>
+<span>پوستی نو</span>
+
+</a>
 
 <nav>
 
@@ -153,9 +45,9 @@
 
 <li><a href="#">برندها</a></li>
 
-<li><a href="#">مشاوره هوشمند</a></li>
+<li><a href="#">مشاوره پوست</a></li>
 
-<li><a href="#">وبلاگ</a></li>
+<li><a href="#">مقالات</a></li>
 
 <li><a href="#">تماس با ما</a></li>
 
@@ -163,13 +55,29 @@
 
 </nav>
 
-<div class="header-icons">
+<div class="header-actions">
 
-<button>🛒</button>
+<button class="search-btn">🔍</button>
 
-<button>❤</button>
+<button class="favorite-btn">❤</button>
 
-<button>👤</button>
+<button class="cart-btn">
+
+🛒
+
+<span class="cart-count">
+
+0
+
+</span>
+
+</button>
+
+<button class="login-btn">
+
+ورود
+
+</button>
 
 </div>
 
@@ -178,6 +86,8 @@
 </header>
 
 <section class="hero">
+
+<div class="hero-overlay"></div>
 
 <div class="hero-content">
 
@@ -189,11 +99,11 @@
 
 <p>
 
-برترین محصولات اورجینال مراقبت از پوست با تضمین اصالت کالا
+فروشگاه تخصصی محصولات مراقبت از پوست، مو و زیبایی با تضمین اصالت کالا
 
 </p>
 
-<a href="#" class="btn">
+<a href="#" class="hero-button">
 
 مشاهده محصولات
 
@@ -202,3 +112,63 @@
 </div>
 
 </section>
+
+<section class="features">
+
+<div class="container">
+
+<div class="feature-box">
+
+<div class="feature-icon">🚚</div>
+
+<h3>ارسال سریع</h3>
+
+<p>ارسال به سراسر کشور</p>
+
+</div>
+
+<div class="feature-box">
+
+<div class="feature-icon">✅</div>
+
+<h3>ضمانت اصالت</h3>
+
+<p>تمام محصولات اورجینال</p>
+
+</div>
+
+<div class="feature-box">
+
+<div class="feature-icon">💳</div>
+
+<h3>پرداخت امن</h3>
+
+<p>درگاه پرداخت مطمئن</p>
+
+</div>
+
+<div class="feature-box">
+
+<div class="feature-icon">💬</div>
+
+<h3>مشاوره رایگان</h3>
+
+<p>توسط متخصص پوست</p>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="categories">
+
+<div class="container">
+
+<h2>
+
+دسته‌بندی محصولات
+
+</h2>
+
+<div class="category-grid">
