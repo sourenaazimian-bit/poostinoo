@@ -1,103 +1,102 @@
+/* ===========================
+   P O O S T I N O O
+=========================== */
+
 *{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-    font-family:tahoma;
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+html{
+scroll-behavior:smooth;
 }
 
 body{
-    background:#f8faf8;
-    color:#333;
+font-family:Tahoma,sans-serif;
+direction:rtl;
+background:#f8faf8;
+color:#333;
+line-height:1.8;
+overflow-x:hidden;
 }
 
-header{
-    background:#8BC34A;
-    color:white;
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-    padding:20px;
+a{
+text-decoration:none;
+transition:.3s;
 }
 
-.logo{
-    font-size:28px;
-    font-weight:bold;
+img{
+max-width:100%;
+display:block;
 }
 
-nav a{
-    color:white;
-    text-decoration:none;
-    margin:0 10px;
-    font-size:16px;
+.container{
+max-width:1200px;
+margin:auto;
+padding:0 15px;
 }
 
-nav a:hover{
-    color:#eaffd7;
+/* ===========================
+HEADER
+=========================== */
+
+.navbar{
+background:#ffffff;
+box-shadow:0 2px 15px rgba(0,0,0,.08);
+padding:15px 0;
 }
+
+.navbar-brand img{
+height:70px;
+}
+
+.nav-link{
+font-size:16px;
+font-weight:600;
+color:#333 !important;
+margin:0 8px;
+}
+
+.nav-link:hover{
+color:#3c9b69 !important;
+}
+
+.btn-success{
+background:#3c9b69;
+border:none;
+border-radius:12px;
+padding:10px 22px;
+font-weight:bold;
+}
+
+.btn-success:hover{
+background:#2e8055;
+}
+
+/* ===========================
+HERO
+=========================== */
 
 .hero{
-    text-align:center;
-    padding:80px 20px;
+padding:90px 0;
+background:linear-gradient(135deg,#f7fff8,#eef8f1);
 }
 
 .hero h1{
-    font-size:40px;
-    margin-bottom:20px;
+font-size:54px;
+font-weight:bold;
+color:#214b37;
+margin-bottom:20px;
 }
 
 .hero p{
-    font-size:20px;
-    margin-bottom:30px;
-    color:#555;
+font-size:20px;
+color:#666;
+margin-bottom:35px;
 }
 
-.hero button{
-    background:#8BC34A;
-    color:white;
-    border:none;
-    padding:15px 35px;
-    font-size:18px;
-    border-radius:10px;
-    cursor:pointer;
-}
-
-.hero button:hover{
-    background:#6fa73b;
-}
-@media (max-width:768px){
-
-header{
-    flex-direction:column;
-    text-align:center;
-}
-
-nav{
-    margin-top:15px;
-}
-
-nav a{
-    display:inline-block;
-    margin:8px;
-    font-size:15px;
-}
-
-.hero{
-    padding:50px 20px;
-}
-
-.hero h1{
-    font-size:32px;
-    line-height:1.5;
-}
-
-.hero p{
-    font-size:18px;
-    line-height:1.8;
-}
-
-.hero button{
-    width:220px;
-    font-size:18px;
-}
-
+.hero img{
+border-radius:30px;
+box-shadow:0 20px 40px rgba(0,0,0,.12);
 }
